@@ -1,0 +1,36 @@
+div{
+    background: linear-gradient(    #E6FFFF 50% , #4D6AFF );
+    text-align: center; 
+}
+/*estilo de foto de perfil*/
+@media (min-width: 576px) {
+    #fotodeperfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+    left: 2%;
+    top: 350px;
+
+    }
+  
+}
+@media (max-width: 575px) {
+    #fotodeperfil{
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px grey;
+    left: 2%;
+    top: 350px;
+
+    }
+  
+}
+
+/*etiqueta de Nombre*/
+#nombre{
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-left: 30%;
+}
