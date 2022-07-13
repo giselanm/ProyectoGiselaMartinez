@@ -1,6 +1,8 @@
 div{
-    background: linear-gradient(    #4D6AFF 50% , #E6FFFF );
+    background-color: #0093E9;
+    background-image: linear-gradient(0deg, #0093E9 0%, #80D0C7 50%, #ffffff 92%);
     text-align: center; 
+    
 }
 /*estilo de foto de perfil*/
 @media (min-width: 576px) {
