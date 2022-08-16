@@ -9,8 +9,7 @@ import javax.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
 
-@Setter
-@Getter
+@Getter @Setter
 @Entity
 public class Persona {
     
@@ -19,14 +18,14 @@ public class Persona {
     private Long id;
     
     @NotNull
-    @Size(min = 1 , max = 20 , message = "Todos los campos son obligatorios" )
+    @Size(min = 1, max = 20 ,message = "Todos los campos son obligatorios")
     private String nombre;
     
     @NotNull
-    @Size(min = 1 , max = 20 , message = "Todos los campos son obligatorios" )
+    @Size(min = 1, max = 20 ,message = "Todos los campos son obligatorios")
     private String apellido;
      
-    @Size(min = 1 , max = 20 , message = "Todos los campos son obligatorios" )
+    @Size(min = 1, max = 20 ,message = "Todos los campos son obligatorios")
     private String img;
     
     
