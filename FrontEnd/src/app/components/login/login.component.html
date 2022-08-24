@@ -1,0 +1,23 @@
+<div class="container bootstrap snippets bootdey">
+  <div class="row">
+      <div class="col-sm-8 col-md-8 col-md-offset-8">
+          <h1 class="text-center login-title">Iniciar sesión o Registrarse</h1>
+          <div class="account-wall">
+              <img class="profile-img" src="https://bootdey.com/img/Content/avatar/avatar7.png"
+                  alt="">
+
+              <form #f="ngForm"(ngSubmit)="onLogin()" novalidate>
+              
+              <input type="text" id="nombreUsuario" name="nombreUsuario" class="form-control"[(ngModel)]="nombreUsuario" placeholder="Usuario" required autofocus>
+              <input type="password" id="password" name="password" class="form-control"[(ngModel)]="password" placeholder="Contraseña" required>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">
+                  Iniciar sesión</button>
+              
+              <!-- <a href="#" class="pull-right ¿Olvidaste tu contraseña?"> ¿Olvidaste tu contraseña?</a><span class="clearfix"></span> -->
+              </form>
+
+          </div>
+          <a href="#" class="text-center new-account">Crear Cuenta</a>
+      </div>
+  </div>
+</div>
